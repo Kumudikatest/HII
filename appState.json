@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "37c7a144-4788-474c-ad90-25319efd8e49": {
+        "id": "37c7a144-4788-474c-ad90-25319efd8e49",
+        "parent": null,
+        "name": "HII",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e181c770-607b-4fde-9ce5-65b853c973df"
+        ],
+        "isRemovable": false,
+        "filePath": "HII"
+      },
+      "e181c770-607b-4fde-9ce5-65b853c973df": {
+        "id": "e181c770-607b-4fde-9ce5-65b853c973df",
+        "parent": "37c7a144-4788-474c-ad90-25319efd8e49",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "HII/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "37c7a144-4788-474c-ad90-25319efd8e49",
+    "openFiles": [
+      "e181c770-607b-4fde-9ce5-65b853c973df"
+    ],
+    "currentFileId": "e181c770-607b-4fde-9ce5-65b853c973df",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "HII",
+    "projectDescription": "Test description",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1572595281721
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "HII",
+      "url": "https://github.com/Kumudikatest/HII"
+    }
+  }
+}
